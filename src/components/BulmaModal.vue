@@ -1,8 +1,8 @@
 <template>
   <div class="modal" id="bulma-modal">
     <div class="modal-background"></div>
-    <div class="modal-content">
-      <h1>Hello</h1>
+    <div class="modal-content has-background-white">
+      <h1 class="has-text-black">Hello</h1>
     </div>
     <button class="modal-close is-large" aria-label="close" @click="closeModal()"></button>
   </div>
