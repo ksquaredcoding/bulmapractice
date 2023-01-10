@@ -1,5 +1,6 @@
 <script setup>
 import BulmaTest from "../components/BulmaTest.vue";
+import ModalButton from "../components/ModalButton.vue";
 import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
@@ -7,5 +8,6 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <BulmaTest />
     <TheWelcome />
+    <ModalButton />
   </main>
 </template>

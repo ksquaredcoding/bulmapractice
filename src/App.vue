@@ -1,5 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import BulmaModal from "./components/BulmaModal.vue";
 import NavBar from "./components/NavBar.vue";
 </script>
 
@@ -9,6 +10,7 @@ import NavBar from "./components/NavBar.vue";
   </header>
 
   <RouterView />
+  <BulmaModal />
 </template>
 
 <style scoped>
