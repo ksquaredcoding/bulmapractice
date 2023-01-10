@@ -1,7 +1,13 @@
 body {
   min-height: 100vh;
+  z-index: 0;
 }
 
-#app {
-  z-index: 0;
+header {
+  z-index: 20;
+  overflow: visible;
+  top: 0;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
 }
