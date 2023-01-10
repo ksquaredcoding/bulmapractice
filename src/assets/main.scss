@@ -1,1 +1,7 @@
-@import '~bulma'
+body {
+  min-height: 100vh;
+}
+
+#app {
+  z-index: 0;
+}

@@ -18,5 +18,6 @@ header {
   top: 0;
   width: 100%;
   overflow-x: hidden;
+  padding-bottom: 0.5rem;
 }
 </style>
